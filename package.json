@@ -1,10 +1,10 @@
 {
   "name": "react-native-components-poc",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile": "rm -rf dist/lib && tsc"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,9 @@
   "homepage": "https://github.com/luanwinck/react-native-components-poc#readme",
   "dependencies": {
     "react-native": "^0.71.7"
+  },
+  "devDependencies": {
+    "@types/react-native": "^0.71.6",
+    "typescript": "^5.0.4"
   }
 }
