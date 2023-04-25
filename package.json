@@ -1,6 +1,6 @@
 {
   "name": "react-native-components-poc",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/luanwinck/react-native-components-poc#readme",
   "dependencies": {
-    "react-native": "^0.71.7"
+    "react-native": "0.65.3"
   },
   "devDependencies": {
     "@types/react-native": "^0.71.6",
