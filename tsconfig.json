@@ -7,7 +7,8 @@
     "outDir": "./dist/lib/es6",
     "moduleResolution": "node",
     "jsx": "react-native",
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true
   },
   "include": ["src/**/*"]
 }
