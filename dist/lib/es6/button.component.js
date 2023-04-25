@@ -1,6 +1,5 @@
-import { Button as RNButton, Text } from 'react-native';
+import React from 'react';
+import { Button as RNButton } from 'react-native';
 export function Button(props) {
-    return (<RNButton {...props}>
-      <Text>Meu botão</Text>
-    </RNButton>);
+    return (<RNButton {...props} title='Meu botão'/>);
 }
