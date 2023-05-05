@@ -56,32 +56,11 @@ module.exports = __toCommonJS(src_exports);
 var import_react_native = require("react-native");
 var import_jsx_runtime = require("react/jsx-runtime");
 function Button(param) {
-    var text = param.text, onClick = param.onClick;
-    return /* @__PURE__ */ (0, import_jsx_runtime.jsx)(import_react_native.TouchableOpacity, {
-        style: styles.button,
-        onPress: onClick,
-        children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(import_react_native.Text, {
-            style: styles.text,
-            children: text
-        })
+    var text = param.text;
+    return /* @__PURE__ */ (0, import_jsx_runtime.jsx)(import_react_native.Text, {
+        children: text
     });
 }
-var styles = import_react_native.StyleSheet.create({
-    button: {
-        maxWidth: 200,
-        textAlign: "center",
-        borderRadius: 10,
-        paddingTop: 14,
-        paddingBottom: 14,
-        paddingLeft: 30,
-        paddingRight: 30,
-        // fontSize: "15px",
-        backgroundColor: "green"
-    },
-    text: {
-        color: "white"
-    }
-});
 // Annotate the CommonJS export names for ESM import in node:
 0 && (module.exports = {
     Button: Button
