@@ -6,9 +6,9 @@
     "declaration": true,
     "outDir": "./dist/lib",
     "moduleResolution": "node",
-    "jsx": "react-native",
+    "jsx": "react-jsx",
     "skipLibCheck": true,
-    "allowSyntheticDefaultImports": true
+    "allowSyntheticDefaultImports": true,
   },
   "include": ["src/**/*"]
 }

@@ -1,5 +1,9 @@
-import { ButtonProps } from 'react-native';
+import { GestureResponderEvent } from 'react-native';
 
-declare function Button(props: ButtonProps): JSX.Element;
+interface ButtonProps {
+    text: string;
+    onClick?: (event: GestureResponderEvent) => void;
+}
+declare function Button({ text, onClick }: ButtonProps): JSX.Element;
 
 export { Button };
