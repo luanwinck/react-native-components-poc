@@ -75,7 +75,7 @@ var styles = import_react_native.StyleSheet.create({
         paddingBottom: 14,
         paddingLeft: 30,
         paddingRight: 30,
-        fontSize: "15px",
+        // fontSize: "15px", // Erro
         backgroundColor: "green"
     },
     text: {
