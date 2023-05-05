@@ -6,4 +6,4 @@ interface ButtonProps {
 }
 declare function Button({ text, onClick }: ButtonProps): JSX.Element;
 
-export { Button };
+export { Button, ButtonProps };
